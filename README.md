@@ -77,8 +77,10 @@ examples.
 - **Risk watchlist** scores recent orders and sorts them by expected production
   loss. Select a shipment to see its prediction, possible alternatives, and
   mitigation options.
-- **Check an order** lets you enter a proposed order and assess its delay risk
-  and expected loss.
+- **Check an order** lets you enter a proposed order, the supplier-promised
+  expected delivery date, and stock on hand, then assess its delay risk,
+  expected loss, and alternative suppliers. The dashboard distinguishes
+  expected delay across all orders from estimated delay when a shipment is late.
 - Alternative suppliers are filtered by item, active status, availability,
   order quantity, lead time, and the selected quality threshold. Remaining
   candidates are compared by purchase cost, shipping, and predicted loss.
