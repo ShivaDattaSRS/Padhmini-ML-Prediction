@@ -1,0 +1,19 @@
+scope,metric,value,unit,count,definition
+chronological_test,high_risk_threshold,0.21427160301836853,probability,19989,Saved classifier validation-selected threshold.
+chronological_test,high_risk_orders_identified,5243.0,orders,19989,Orders with predicted late probability at or above threshold.
+chronological_test,actual_late_orders_identified,1957.0,orders,3239,High-risk orders that were actually late.
+chronological_test,missed_actual_late_orders,1282.0,orders,3239,Actually late orders below the high-risk threshold.
+chronological_test,high_risk_precision,0.37325958420751476,rate,5243,Actual late among identified high-risk orders.
+chronological_test,high_risk_recall,0.6041988267983945,rate,3239,Share of actually late orders identified as high risk.
+sequential_replay,high_risk_threshold,0.21427160301836853,probability,300,Saved classifier validation-selected threshold.
+sequential_replay,high_risk_orders_identified,78.0,orders,300,Orders with predicted late probability at or above threshold.
+sequential_replay,actual_late_orders_identified,32.0,orders,55,High-risk orders that were actually late.
+sequential_replay,missed_actual_late_orders,23.0,orders,55,Actually late orders below the high-risk threshold.
+sequential_replay,high_risk_precision,0.41025641025641024,rate,78,Actual late among identified high-risk orders.
+sequential_replay,high_risk_recall,0.5818181818181818,rate,55,Share of actually late orders identified as high risk.
+latest_300_recommendation_cases,high_risk_orders_reviewed_for_alternatives,78.0,orders,78,High-risk orders in recommendation summary.
+latest_300_recommendation_cases,orders_with_feasible_alternative_returned,69.0,orders,78,At least one eligible alternative survived filters and ranking.
+latest_300_recommendation_cases,orders_with_current_cost_comparable,73.0,orders,78,Current supplier-item shipping quote was usable for savings comparison.
+latest_300_recommendation_cases,orders_with_recommendation_and_comparable_cost,69.0,orders,78,A supplier recommendation with a comparable current-supplier cost.
+latest_300_recommendation_cases,estimated_potential_savings,47246424.57258614,INR (estimated),69,Sum of model-estimated savings; not realized or verified savings.
+latest_300_recommendation_cases,realized_savings,,not estimable,0,No switched-order counterfactual outcomes or realized post-switch costs are provided.
